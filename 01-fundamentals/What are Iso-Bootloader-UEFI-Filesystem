@@ -1,0 +1,28 @@
+# What is an ISO? How is it different from Normal folders?
+
+
+- An iso is basically a digital exact replica of a disc or dvd. Basically- it's sturctured in the same way, it is an EXACT image of that dvd/disc. (You're basically not only copying the files but recreating the WHOLE entire disc itself)
+
+## What is flashing?
+
+- Flashing is basically copying the entire dvd exactly as it is onto a pendrive or something.
+
+## What is EFI (Extensible Firmware Interface)?
+
+- EFI is a kind of library/sorting mechanism that stores all bootloaders availabe from different OS.
+
+## What is UEFI (Unified Extensible Firmware Interface)?
+
+- UEFI reads information inside EFI and boots one of the available bootloaders.
+- UEFI has a priority order and chooses the bootloader with highest priority to boot in. IT DOES NOT ask you which OS you want to boot in everytime.
+
+## What is a Bootloader?
+
+- A bootloader in simple words- is a program that runs the OS. (Or more accurately starts the OS).
+
+## What is a filesystem?
+
+- A filesystem is the way how an OS stores its files. (Basically rules for how files are supposed to be stored).
+  - Windows commonly use NTFS.
+  - Linux uses ext4
+  - pendrives commonly use exFAT (so that they are readable for linux, windows and macs)
