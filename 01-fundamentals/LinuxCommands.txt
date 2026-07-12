@@ -1,0 +1,163 @@
+
+-              Some basic linux commands.
+
+
+
+======================== NAVIGATION ========================
+
+pwd - (Print Working Directory) = Shows your current folder.
+
+ls - Lists files and folders.
+
+ls -l - Long listing (It includes permissions, owner, size, date).
+
+ls -la - Lists all files.
+
+cd - Change directory.
+
+cd (directory name) = go to that directory.
+
+cd - go to home director.
+
+======================== FILE MANAGEMENT ========================
+
+mkdir  - Creates a new directory.
+
+touch  - Creates an empty file.
+
+cp  - Copies a file.
+
+mv  - Move or rename a file at the same directory.
+
+rm  - Deletes a file.
+
+rm -r  - Deletes a folder recursively.
+
+======================== VIEWING FILES ========================
+
+cat (concatenate) = Prints file contents.
+
+less  = View a file one page at a time. - Press ‘q’ to quit or ctrl + c.
+
+nano  = Open a file in the Nano editor. - Ctrl+O = Save - Ctrl+X = Exit
+
+======================== SEARCHING ========================
+
+find . -name “*.cpp” = Find all C++ files.
+
+which  = Show where a program is installed.
+
+======================== PACMAN (ARCH) ========================
+
+sudo pacman -S  = Install a package.
+
+sudo pacman -Syu = Update package database and upgrade the system.
+
+sudo pacman -R  = Remove a package.
+
+sudo pacman -Rns = Remove a package and unused dependencies.
+
+pacman -Ss  = Search repositories.
+
+pacman -Q = Check if a package is installed.
+
+pacman -Qtd = List orphaned packages.
+
+======================== YAY (AUR) ========================
+
+yay -S  = Install an AUR package.
+
+yay -Syu = Update official packages and AUR packages.
+
+yay -Rns = Remove an AUR package.
+
+======================== SYSTEM ========================
+
+fastfetch = Display system information.
+
+uname -r = Show the current kernel version.
+
+df -h = Show disk usage.
+
+du -sh * = Show folder sizes.
+
+shutdown now = Shut down rn.
+
+reboot = Restart the computer.
+
+======================== PROCESSES ========================
+
+ps = Show running processes.
+
+btop = Better process viewer.
+
+htop = Interactive process viewer.
+
+kill = Stop a process.
+
+kill -9  = Force-stop a process.
+
+======================== AUDIO (PIPEWIRE) ========================
+
+wpctl status = List audio devices.
+
+wpctl set-default = Set the default microphone or speaker.
+
+======================== NETWORK ========================
+
+ping google.com = Test network connectivity.
+
+ip a = Shows network interfaces and IP addresses.
+
+curl ifconfig.me = Shows public IP.
+
+======================== GIT ========================
+
+git clone  = Clone a repository.
+
+git status = Show repository status.
+
+git add . = Stage all changes.
+
+git commit -m “message” = Create a commit.
+
+git push = Upload commits to GitHub.
+
+git pull = Download and merge latest changes.
+
+git branch = List branches.
+
+git remote -v = Show remote repositories.
+
+git log = Show commit history.
+
+======================== SYSTEMD ========================
+
+sudo systemctl restart sddm = Restart the KDE login manager.
+
+systemctl status = Show service status.
+
+sudo systemctl start = Start a service.
+
+sudo systemctl enable = Enable a service at boot.
+
+======================== SUDO ========================
+
+sudo = Run a command as administrator.
+
+======================== TERMINAL SHORTCUTS ========================
+
+Tab = Auto-complete commands and filenames.
+
+Ctrl+C = Stop the current command.
+
+Ctrl+L = Clear the terminal.
+
+Up Arrow = Recall previous command.
+
+clear = Clear the terminal screen.
+
+
+
+
+-- THIS WAS MADE BY ME, DO NOT COPY THIS, IT IS FOR ME TO KEEP TABS OF WHAT I'VE LEARNT AND WHAT I HAVEN'T.
